@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compute-center-types>
+	<compute-center-type>
+		<name>CloudStack Compute</name>
+		<description>CloudStack Compute</description>
+		<connector-impl-class-name>
+			com.singularity.ee.connectors.cloudstack.CloudStackConnector
+		</connector-impl-class-name>
+		<property-definitions>
+			<property-definition>
+				<name>Client End Point Url</name>
+				<description>Client End Point Url</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Secret Key</name>
+				<description>Secret Key</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Api Key</name>
+				<description>Api Key</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+		</property-definitions>
+		<machine-descriptor-definitions>
+			<property-definition>
+				<name>Service Offering Id</name>
+				<description>Service Offering Id</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Zone Id</name>
+				<description>Zone Id</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Network Ids</name>
+				<description>Comma separated list of Network Id used by the server</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Disk Offering Id</name>
+				<description>Disk Offering Id</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Group</name>
+				<description>Group</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Host Id</name>
+				<description>Host Id</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Hypervisor</name>
+				<description>Hypervisor</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Key Pair</name>
+				<description>Key Pair</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Security Group Names</name>
+				<description>Comma separated list of Security Group Names</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Security Group Ids</name>
+				<description>Comma separated list of Security Group Ids</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Size</name>
+				<description>Size</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Ip Address</name>
+				<description>Ip Address</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Domain Id</name>
+				<description>Domain Id</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Account</name>
+				<description>Account</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Name</name>
+				<description>Name</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Keyboard</name>
+				<description>Keyboard</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Project Id</name>
+				<description>Project Id</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>200</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+		</machine-descriptor-definitions>
+	</compute-center-type>
+</compute-center-types>

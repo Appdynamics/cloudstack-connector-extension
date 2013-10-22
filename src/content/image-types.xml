@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image-types>
+
+	<image-type>
+		<name>CloudStack Compute Image</name>
+		<description>CloudStack Compute Image</description>
+				<property-definitions>
+			<property-definition>
+				<name>Template Id</name>
+				<description>Template Id</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>100</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+					</property-definitions>
+		<supported-compute-center-types>
+			<compute-center-type>CloudStack Compute</compute-center-type>
+		</supported-compute-center-types>
+	</image-type>
+	
+</image-types>
