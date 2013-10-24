@@ -1,7 +1,5 @@
-aws-connector-extension
+cloudstack-connector-extension
 ===========================
-
-Amazon Web Services EC2 Connector Extension
 
 ##Use Case
 
@@ -18,7 +16,7 @@ Amazon Web Services EC2 Connector Extension
 </tr>
 <tr>
 <td class='confluenceTd'> src </td>
-<td class='confluenceTd'> Contains source code to the aws connector extension </td>
+<td class='confluenceTd'> Contains source code to the cloudstack connector extension </td>
 </tr>
 <tr>
 <td class='confluenceTd'> dist </td>
@@ -33,18 +31,19 @@ Amazon Web Services EC2 Connector Extension
 
 ##Installation
 
-1. Clone the aws-connector-extension from GitHub
-2. Run 'ant package' from the cloned aws-connector-extension directory
-3. Download the file aws-connector.zip located in the 'dist' directory into \<controller install dir\>/lib/connectors
+1. Clone the cloudstack-connector-extension from GitHub
+2. Run 'ant package' from the cloned cloudstack-connector-extension directory
+3. Download the file cloudstack-connector.zip located in the 'dist' directory into \<controller install dir\>/lib/connectors
 4. Unzip the downloaded file
 5. Restart the Controller
 6. Go to the controller dashboard on the browser. Under Setup->My Preferences->Advanced Features enable "Show Cloud Auto-Scaling features" if it is not enabled. 
 7. On the controller dashboard click "Cloud Auto-Scaling" and configure the compute cloud and the image.
 
 
+
 ##Contributing
 
-Always feel free to fork and contribute any changes directly via [GitHub](https://github.com/Appdynamics/aws-connector-extension).
+Always feel free to fork and contribute any changes directly via [GitHub](https://github.com/Appdynamics/cloudstack-connector-extension).
 
 ##Community
 
