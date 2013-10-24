@@ -1,4 +1,4 @@
-package com.singularity.ee.connectors.cloudstack;
+package com.appdynamics.connectors.cloudstack;
 
 import static com.singularity.ee.controller.KAppServerConstants.CONTROLLER_SERVICES_HOST_NAME_PROPERTY_KEY;
 import static com.singularity.ee.controller.KAppServerConstants.CONTROLLER_SERVICES_PORT_PROPERTY_KEY;
@@ -11,10 +11,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.singularity.ee.agent.resolver.AgentResolutionEncoder;
-import com.singularity.ee.cloudstack.CloudStackClient;
-import com.singularity.ee.cloudstack.CreateServerOptions;
-import com.singularity.ee.cloudstack.Server;
-import com.singularity.ee.cloudstack.ServerStatus;
+import com.appdynamics.cloudstack.CloudStackClient;
+import com.appdynamics.cloudstack.CreateServerOptions;
+import com.appdynamics.cloudstack.Server;
+import com.appdynamics.cloudstack.ServerStatus;
 import com.singularity.ee.connectors.api.ConnectorException;
 import com.singularity.ee.connectors.api.IConnector;
 import com.singularity.ee.connectors.api.IControllerServices;

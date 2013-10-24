@@ -1,4 +1,4 @@
-package com.singularity.ee.connectors.cloudstack;
+package com.appdynamics.connectors.cloudstack;
 
 import java.util.HashMap;
 import java.util.Map;

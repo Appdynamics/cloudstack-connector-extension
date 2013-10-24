@@ -1,4 +1,4 @@
-package com.singularity.ee.cloudstack;
+package com.appdynamics.cloudstack;
 
 public enum ServerStatus
 {

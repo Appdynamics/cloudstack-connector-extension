@@ -1,4 +1,4 @@
-package com.singularity.ee.cloudstack;
+package com.appdynamics.cloudstack;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

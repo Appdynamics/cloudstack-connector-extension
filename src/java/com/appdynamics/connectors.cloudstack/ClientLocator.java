@@ -1,9 +1,9 @@
-package com.singularity.ee.connectors.cloudstack;
+package com.appdynamics.connectors.cloudstack;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.singularity.ee.cloudstack.CloudStackClient;
+import com.appdynamics.cloudstack.CloudStackClient;
 import com.singularity.ee.connectors.api.ConnectorException;
 import com.singularity.ee.connectors.api.IControllerServices;
 import com.singularity.ee.connectors.entity.api.IProperty;
@@ -41,7 +41,7 @@ public class ClientLocator
 				return cloudStackClients.get(identifier);
 			}
 
-			// for now there are only two connectors, Rackspace and HP; neither uses password for authentication.
+			// for now there are only two connectors.cloudstack, Rackspace and HP; neither uses password for authentication.
 			CloudStackClient client = new CloudStackClient(apiKey, secretkey, endPoint);
 
 			if (!client.authenticate())

@@ -1,4 +1,4 @@
-package com.singularity.ee.cloudstack;
+package com.appdynamics.cloudstack;
 
 import java.net.URLEncoder;
 import java.security.SignatureException;

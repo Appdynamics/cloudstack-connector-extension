@@ -1,4 +1,4 @@
-package com.singularity.ee.cloudstack;
+package com.appdynamics.cloudstack;
 
 //simple java bean used to relay info back to the connector
 public class Server
