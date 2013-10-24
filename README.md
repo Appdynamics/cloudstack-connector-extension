@@ -39,6 +39,7 @@ cloudstack-connector-extension
 6. Go to the controller dashboard on the browser. Under Setup->My Preferences->Advanced Features enable "Show Cloud Auto-Scaling features" if it is not enabled. 
 7. On the controller dashboard click "Cloud Auto-Scaling" and configure the compute cloud and the image.
 
+Click Compute Cloud->Register Compute Cloud. Refer to the image below
 
 ![alt tag](https://raw.github.com/Appdynamics/cloudstack-connector-extension/master/CloudStack%20Compute%20Fields.png?login=rvasanda&token=d91e71eab74fcc62f39e9ff97c9e64c2)
 
