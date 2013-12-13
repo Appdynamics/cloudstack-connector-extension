@@ -1,5 +1,5 @@
-Apache CloudStack Extension
-===========================
+Apache CloudStack Connector Extension
+=====================================
 
 ##Use Case
 
