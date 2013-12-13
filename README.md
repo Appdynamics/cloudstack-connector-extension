@@ -1,4 +1,4 @@
-cloudstack-connector-extension
+Apache CloudStack Extension
 ===========================
 
 ##Use Case
