@@ -51,11 +51,11 @@ Lastly, the cloudstack-connector-extension may be used to stage migration of an 
 
 Click Compute Cloud->Register Compute Cloud. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/cloudstack-connector-extension/master/CloudStack%20Compute%20Fields.png?login=rvasanda&token=d91e71eab74fcc62f39e9ff97c9e64c2)
+![alt tag](https://raw.github.com/Appdynamics/cloudstack-connector-extension/master/CloudStack%20Compute%20Fields.png)
 
 Click Image->Register Image. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/cloudstack-connector-extension/master/CloudStack%20Compute%20Image.png?login=rvasanda&token=208d96dd3dc67f354f9055537454f61d)
+![alt tag](https://raw.github.com/Appdynamics/cloudstack-connector-extension/master/CloudStack%20Compute%20Image.png)
 
 ##Contributing
 
