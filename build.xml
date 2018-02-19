@@ -5,6 +5,7 @@
 	<property name="build" location="build" />
 	<property name="dist" location="dist" />
 	<property name="jarName" location="connector.jar" />
+    <property name="licenses" value="licenses"/>
 
 	<target name="clean">
 		<delete failonerror="true" quiet="true" includeemptydirs="true">
@@ -36,6 +37,10 @@
             		<fileset dir="${build}">
                 		<include name="connector.jar" />
             		</fileset>
+            		            <fileset dir="${licenses}">
+                <include name="*.txt" />
+            </fileset>
+
 		</copy>
 		<copy todir="${dist}/cloudstack">
             		<fileset dir="${content}">
